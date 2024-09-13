@@ -1,0 +1,44 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "onyxhoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Onyx Hoe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§e§lBlock §r§4§lConsumption:§7 Whenever a block is destroyed gain §r§eSaturation§r§7.",
+        "§7Full armor set is required to negate being §r§4§lFat§r§7."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 14.0,
+    "attackSpeed": 5.0,
+    "enchantability": 2,
+    "damageVsEntity": 2.0,
+    "usageCount": 4196,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Onyx"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "OnyxToolBonusEffect"
+    }
+  }
+}

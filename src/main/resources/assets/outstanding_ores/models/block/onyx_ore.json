@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outstanding_ores:block/onyxore",
+    "particle": "outstanding_ores:block/onyxore"
+  },
+  "render_type": "solid"
+}

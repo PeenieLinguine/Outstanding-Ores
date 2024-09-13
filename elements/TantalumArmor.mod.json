@@ -1,0 +1,114 @@
+{
+  "_fv": 57,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "tantalum_head",
+    "enableBody": true,
+    "textureBody": "tantalum_body",
+    "enableLeggings": true,
+    "textureLeggings": "tantalum_leggings",
+    "enableBoots": true,
+    "textureBoots": "tantalum_boots",
+    "onHelmetTick": {
+      "name": "TantalumArmorEffect"
+    },
+    "onBodyTick": {
+      "name": "TantalumArmorEffect"
+    },
+    "onLeggingsTick": {
+      "name": "TantalumArmorEffect"
+    },
+    "onBootsTick": {
+      "name": "TantalumArmorEffect"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "armorTextureFile": "tantalum",
+    "helmetName": "Tantalum Helmet",
+    "bodyName": "Tantalum Chestplate",
+    "leggingsName": "Tantalum Leggings",
+    "bootsName": "Tantalum Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§r§2Mending"
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§r§2Mending"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§r§2Mending"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§r§2Mending"
+      ]
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 22,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 14,
+    "toughness": 2.25,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_gold"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TantalumIngot"
+      }
+    ]
+  }
+}

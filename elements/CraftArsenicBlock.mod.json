@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "crafting",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      },
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      },
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      },
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      },
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      },
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      },
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      },
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      },
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockOfArsenic"
+    },
+    "name": "craft_arsenic_block",
+    "namespace": "mod"
+  }
+}

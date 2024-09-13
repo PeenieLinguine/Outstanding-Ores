@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "outstanding_ores:block_of_raw_tungsten",
+    "outstanding_ores:block_of_tungsten",
+    "outstanding_ores:onyx_ore"
+  ]
+}

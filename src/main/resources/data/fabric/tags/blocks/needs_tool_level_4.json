@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "outstanding_ores:reinforced_talc",
+    "outstanding_ores:tungsten_ore",
+    "outstanding_ores:block_of_tantalum_arsenide"
+  ]
+}

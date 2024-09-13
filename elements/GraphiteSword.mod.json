@@ -1,0 +1,50 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "graphitesword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Graphite Sword",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§d§lAn §r§5§lArtist's §b§lOutline:§r§7 Enemies you attack §r§6§oGlow§7 for 5 minutes.",
+        "§f§lSharpened §r§8§lWear: §r§7Gain §eSharpness §r§7when the tool is below a certain level of §8Durability§r§7.",
+        "§fSharpness I§7:       §f75%",
+        "§fSharpness II§7:      §f50%",
+        "§fSharpness III§7:     §f25%"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 12,
+    "damageVsEntity": 3.5,
+    "usageCount": 196,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:GraphiteIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "GraphiteWeaponBonusEffect"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "GraphiteWeaponBonusEffect"
+    }
+  }
+}

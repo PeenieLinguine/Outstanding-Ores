@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "craft",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:talc_shard"
+    },
+    "b": {
+      "item": "outstanding_ores:block_of_graphite"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:jump_boost_graphite",
+    "count": 1
+  }
+}

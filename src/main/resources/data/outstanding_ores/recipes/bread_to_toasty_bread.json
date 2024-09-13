@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "group": "smoke",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "minecraft:bread"
+  },
+  "result": "outstanding_ores:toasty_bread"
+}

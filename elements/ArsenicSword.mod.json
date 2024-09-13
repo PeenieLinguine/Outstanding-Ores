@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "arsenicsword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Arsenic Sword",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§r§7Applies §r§dPoison §r§7and §r§8Wither§r§7 to enemies for a short duration."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 16,
+    "damageVsEntity": 4.5,
+    "usageCount": 725,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ArsenicWeaponBonusEffect"
+    }
+  }
+}

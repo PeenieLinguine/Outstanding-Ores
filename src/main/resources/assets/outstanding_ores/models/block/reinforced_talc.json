@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outstanding_ores:block/reinforcedtalc",
+    "particle": "outstanding_ores:block/reinforcedtalc"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:block_of_tantalum"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:tantalum_ingot",
+    "count": 9
+  }
+}

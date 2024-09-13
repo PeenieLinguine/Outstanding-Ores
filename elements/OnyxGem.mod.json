@@ -1,0 +1,113 @@
+{
+  "_fv": 57,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "onyxhelmet",
+    "enableBody": true,
+    "textureBody": "onyxchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "onyxleggings",
+    "enableBoots": true,
+    "textureBoots": "onyxboots",
+    "onBodyTick": {
+      "name": "OnyxArmorEffect"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "armorTextureFile": "onyx_",
+    "helmetName": "Onyx Helmet",
+    "bodyName": "Onyx Chestplate",
+    "leggingsName": "Onyx Leggings",
+    "bootsName": "Onyx Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§r§7You are immune to: §r§5Darkness§r§7,",
+        "§r§aNausea§r§7, §r§fWeakness§r§7,",
+        "§r§6Mining Fatigue§r§7, §r§8Blindness§r§7."
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§r§7You are immune to: §r§5Darkness§r§7,",
+        "§r§aNausea§r§7, §r§fWeakness§r§7,",
+        "§r§6Mining Fatigue§r§7, §r§8Blindness§r§7."
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§r§7You are immune to: §r§5Darkness§r§7,",
+        "§r§aNausea§r§7, §r§fWeakness§r§7,",
+        "§r§6Mining Fatigue§r§7, §r§8Blindness§r§7."
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§r§7You are immune to: §r§5Darkness§r§7,",
+        "§r§aNausea§r§7, §r§fWeakness§r§7,",
+        "§r§6Mining Fatigue§r§7, §r§8Blindness§r§7."
+      ]
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 45,
+    "damageValueHelmet": 4,
+    "damageValueBody": 10,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 4,
+    "enchantability": 25,
+    "toughness": 4.0,
+    "knockbackResistance": 0.15,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Onyx"
+      }
+    ]
+  }
+}

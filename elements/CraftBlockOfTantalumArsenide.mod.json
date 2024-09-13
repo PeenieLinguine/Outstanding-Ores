@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "craft",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      },
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      },
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      },
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      },
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      },
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      },
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      },
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      },
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockOfTantalumArsenide"
+    },
+    "name": "craft_block_of_tantalum_arsenide",
+    "namespace": "mod"
+  }
+}

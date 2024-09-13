@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "outstanding_ores:arsenic_ingot"
+    },
+    "title": "A Poisoning Discovery",
+    "description": "§7Obtain §dRaw Arsenic",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_arsenic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "outstanding_ores:raw_arsenic"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "outstanding_ores:obtain_graphite"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:arsenic_ingot"
+    },
+    "b": {
+      "item": "outstanding_ores:graphite_rod"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:arsenic_sword",
+    "count": 1
+  }
+}

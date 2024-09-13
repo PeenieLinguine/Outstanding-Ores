@@ -1,0 +1,44 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "arsenicshovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Arsenic Shovel",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§7Chance for §r§a§lXP§7 to drop when a block is harvested.",
+        "§4§lCAUTION:§r§7 Self applies §r§dPoison §r§7and §r§8Wither§r§7."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 16,
+    "damageVsEntity": 5.0,
+    "usageCount": 725,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "ArsenicToolBonusEffect"
+    }
+  }
+}

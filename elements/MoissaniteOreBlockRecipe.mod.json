@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "crafting",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockOfMoissanite"
+    },
+    "name": "moissanite_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

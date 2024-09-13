@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outstanding_ores:block/arsenicblock",
+    "up": "outstanding_ores:block/arsenicblock",
+    "north": "outstanding_ores:block/arsenicblock",
+    "east": "outstanding_ores:block/arsenicblock",
+    "south": "outstanding_ores:block/arsenicblock",
+    "west": "outstanding_ores:block/arsenicblock",
+    "particle": "outstanding_ores:block/arsenicblock"
+  },
+  "render_type": "solid"
+}

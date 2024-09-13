@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "moissaniteaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Moissanite Axe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§7Gain §r§6Fire Aspect§r§7 while in main hand and off hand."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 16.0,
+    "attackSpeed": 1.0,
+    "enchantability": 28,
+    "damageVsEntity": 13.5,
+    "usageCount": 6542,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Moissanite"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "MoissaniteWeaponBonusEffect"
+    }
+  }
+}

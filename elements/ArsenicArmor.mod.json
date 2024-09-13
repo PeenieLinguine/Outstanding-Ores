@@ -1,0 +1,102 @@
+{
+  "_fv": 57,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "arsenic_head",
+    "enableBody": true,
+    "textureBody": "arsenic_body",
+    "enableLeggings": true,
+    "textureLeggings": "arsenic_leggings",
+    "enableBoots": true,
+    "textureBoots": "arsenic_boots",
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "armorTextureFile": "arsenic",
+    "helmetName": "Arsenic Helmet",
+    "bodyName": "Arsenic Chestplate",
+    "leggingsName": "Arsenic Leggings",
+    "bootsName": "Arsenic Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§7Immunity to §r§dPoison§r§7 and §r§8Wither§r§7."
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§7Immunity to §r§dPoison§r§7 and §r§8Wither§r§7."
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§7Immunity to §r§dPoison§r§7 and §r§8Wither§r§7."
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§7Immunity to §r§dPoison§r§7 and §r§8Wither§r§7."
+      ]
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 12,
+    "toughness": 0.5,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ArsenicIngot"
+      }
+    ]
+  }
+}

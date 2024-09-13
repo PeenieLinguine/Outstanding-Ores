@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "outstanding_ores:block/reinforced_talc",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "outstanding_ores:block/reinforced_talc"
+    },
+    "axis=z": {
+      "model": "outstanding_ores:block/reinforced_talc",
+      "x": 90
+    }
+  }
+}

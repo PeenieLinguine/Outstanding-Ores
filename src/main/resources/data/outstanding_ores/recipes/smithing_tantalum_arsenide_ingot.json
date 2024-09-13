@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "outstanding_ores:tantalum_ingot"
+  },
+  "base": {
+    "item": "outstanding_ores:reinforced_talc"
+  },
+  "addition": {
+    "item": "outstanding_ores:arsenic_ingot"
+  },
+  "result": {
+    "item": "outstanding_ores:tantalum_arsenide_ingot"
+  }
+}

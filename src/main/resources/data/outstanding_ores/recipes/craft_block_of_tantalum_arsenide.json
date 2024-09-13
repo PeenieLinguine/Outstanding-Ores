@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "craft",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:tantalum_arsenide_ingot"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:block_of_tantalum_arsenide",
+    "count": 1
+  }
+}

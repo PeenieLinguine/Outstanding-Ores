@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outstanding_ores:block/tungstenblock",
+    "particle": "outstanding_ores:block/tungstenblock"
+  },
+  "render_type": "solid"
+}

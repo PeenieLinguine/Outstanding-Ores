@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "cubiczirconiashovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Cubic Zirconia Shovel",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§7All effects only apply §r§1Underwater§r§7.",
+        "§7While in hand gain §r§3Water Breathing§r§7.",
+        "§7While full armor set equipped gain §r§3Aqua Affinity V§r§7.",
+        "§8Resistance III"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 19.0,
+    "attackSpeed": 1.0,
+    "enchantability": 31,
+    "damageVsEntity": 10.5,
+    "usageCount": 8096,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CubicZirconia"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "CubicZirconiaToolEffect"
+    }
+  }
+}

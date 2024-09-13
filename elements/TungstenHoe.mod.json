@@ -1,0 +1,44 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "tungstenhoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Tungsten Hoe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§4Regeneration",
+        "§4Health Boost"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 11.0,
+    "attackSpeed": 5.0,
+    "enchantability": 18,
+    "damageVsEntity": 1.0,
+    "usageCount": 3072,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TungstenIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "TungstenItembonusEffect"
+    }
+  }
+}

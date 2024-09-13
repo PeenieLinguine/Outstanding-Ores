@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "outstanding_ores:graphite_ore",
+    "outstanding_ores:deepslate_graphite_ore",
+    "outstanding_ores:block_of_raw_graphite",
+    "outstanding_ores:block_of_graphite",
+    "outstanding_ores:glowing_graphite",
+    "outstanding_ores:jump_boost_graphite",
+    "outstanding_ores:talc",
+    "outstanding_ores:reinforced_talc",
+    "outstanding_ores:arsenic_ore",
+    "outstanding_ores:block_of_raw_arsenic",
+    "outstanding_ores:block_of_arsenic",
+    "outstanding_ores:tantalum_ore",
+    "outstanding_ores:deepslate_tantalum_ore",
+    "outstanding_ores:block_of_raw_tantalum",
+    "outstanding_ores:block_of_tantalum",
+    "outstanding_ores:tungsten_ore",
+    "outstanding_ores:block_of_raw_tungsten",
+    "outstanding_ores:block_of_tungsten",
+    "outstanding_ores:block_of_tantalum_arsenide",
+    "outstanding_ores:onyx_ore",
+    "outstanding_ores:block_of_onyx",
+    "outstanding_ores:moissanite_ore",
+    "outstanding_ores:cubic_zirconia_ore",
+    "outstanding_ores:block_of_craftite"
+  ]
+}

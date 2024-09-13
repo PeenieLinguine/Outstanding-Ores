@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:cubic_zirconia"
+    },
+    "b": {
+      "item": "outstanding_ores:wither_spine_fragment"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:cubic_zirconia_shovel",
+    "count": 1
+  }
+}

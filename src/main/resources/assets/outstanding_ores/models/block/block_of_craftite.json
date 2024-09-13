@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outstanding_ores:block/blockofcraftite",
+    "up": "outstanding_ores:block/blockofcraftite",
+    "north": "outstanding_ores:block/blockofcraftite",
+    "east": "outstanding_ores:block/blockofcraftite",
+    "south": "outstanding_ores:block/blockofcraftite",
+    "west": "outstanding_ores:block/blockofcraftite",
+    "particle": "outstanding_ores:block/blockofcraftite"
+  },
+  "render_type": "solid"
+}

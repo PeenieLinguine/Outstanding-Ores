@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "outstanding_ores:graphite_ore",
+    "outstanding_ores:deepslate_graphite_ore",
+    "outstanding_ores:block_of_graphite",
+    "outstanding_ores:talc",
+    "outstanding_ores:block_of_moissanite",
+    "outstanding_ores:block_of_cubic_zirconia",
+    "outstanding_ores:reinforced_alloy_smelter"
+  ]
+}

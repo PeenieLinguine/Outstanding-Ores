@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "outstanding_ores:elder_guardian_eye"
+    },
+    "title": "§6All Eyes On End Game",
+    "description": "§7Obtain an §6Elder Guaridan Eye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_elder_guardian_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "outstanding_ores:elder_guardian_eye"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "outstanding_ores:enter_the_world"
+}

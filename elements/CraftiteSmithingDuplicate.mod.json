@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "crafting",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ReinforcedTalc"
+      },
+      {
+        "value": "CUSTOM:CraftiteSmithingTemplate"
+      },
+      {
+        "value": "CUSTOM:ReinforcedTalc"
+      },
+      {
+        "value": "CUSTOM:ReinforcedTalc"
+      },
+      {
+        "value": "CUSTOM:CraftiteBase"
+      },
+      {
+        "value": "CUSTOM:ReinforcedTalc"
+      },
+      {
+        "value": "CUSTOM:ReinforcedTalc"
+      },
+      {
+        "value": "CUSTOM:ReinforcedTalc"
+      },
+      {
+        "value": "CUSTOM:ReinforcedTalc"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CraftiteSmithingTemplate"
+    },
+    "name": "craftite_smithing_duplicate",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "outstanding_ores:onyx"
+  },
+  "base": {
+    "item": "outstanding_ores:moissanite"
+  },
+  "addition": {
+    "item": "outstanding_ores:cubic_zirconia"
+  },
+  "result": {
+    "item": "outstanding_ores:craftite_base"
+  }
+}

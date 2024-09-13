@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outstanding_ores:block/tantalumarsenide",
+    "particle": "outstanding_ores:block/tantalumarsenide"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:block_of_raw_tantalum"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:raw_tantalum",
+    "count": 9
+  }
+}

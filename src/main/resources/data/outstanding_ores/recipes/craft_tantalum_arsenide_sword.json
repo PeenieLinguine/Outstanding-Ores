@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:tantalum_arsenide_ingot"
+    },
+    "b": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:tantalum_arsenide_sword",
+    "count": 1
+  }
+}

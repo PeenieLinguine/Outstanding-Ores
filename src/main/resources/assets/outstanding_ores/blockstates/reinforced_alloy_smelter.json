@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "face=floor,facing=north": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter"
+    },
+    "face=floor,facing=east": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "y": 90
+    },
+    "face=floor,facing=south": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "y": 270
+    },
+    "face=wall,facing=north": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "x": 90
+    },
+    "face=wall,facing=east": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=south": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "x": 90,
+      "y": 270
+    },
+    "face=ceiling,facing=north": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,facing=east": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=south": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "x": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "outstanding_ores:block/reinforced_alloy_smelter",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

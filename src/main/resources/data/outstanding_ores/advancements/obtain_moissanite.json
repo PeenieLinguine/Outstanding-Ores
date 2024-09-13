@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "outstanding_ores:moissanite"
+    },
+    "title": "Only This Can Melt Steel Beams",
+    "description": "§7Obtain §eMoissanite",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_moissanite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "outstanding_ores:moissanite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "outstanding_ores:obtain_onyx"
+}

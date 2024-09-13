@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outstanding_ores:block/graphiteore",
+    "particle": "outstanding_ores:block/graphiteore"
+  },
+  "render_type": "solid"
+}

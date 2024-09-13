@@ -1,0 +1,50 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "craftitesword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Craftite Sword",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§6§lFiery §r§f§lJudgement:§r§7 On §r§d§nRight Click§7, after a short charge, launch 3 waves of §r§6Fiery §r§7arrows.",
+        "§b8 second cooldown"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 30.0,
+    "attackSpeed": 1.6,
+    "enchantability": 35,
+    "damageVsEntity": 14.0,
+    "usageCount": 12068,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Craftite"
+      },
+      {
+        "value": "CUSTOM:CraftiteBase"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "CraftiteSwordBonusEffect"
+    },
+    "onRightClickedOnBlock": {
+      "name": "CraftiteSwordBonusEffect"
+    }
+  }
+}

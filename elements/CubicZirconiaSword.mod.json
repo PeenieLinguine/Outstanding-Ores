@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "cubiczirconiasword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Cubic Zirconia Sword",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§7All effects only apply §r§1Underwater§r§7.",
+        "§7While in hand gain §r§3Water Breathing§r§7.",
+        "§8Resistance III",
+        "§fStrength III"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 19.0,
+    "attackSpeed": 1.6,
+    "enchantability": 31,
+    "damageVsEntity": 10.0,
+    "usageCount": 8096,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CubicZirconia"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "CubicZirconiaWeaponEffect"
+    }
+  }
+}

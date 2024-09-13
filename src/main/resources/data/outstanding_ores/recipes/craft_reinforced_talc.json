@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:tungsten_ingot"
+    },
+    "b": {
+      "item": "outstanding_ores:talc_shard"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:reinforced_talc",
+    "count": 1
+  }
+}

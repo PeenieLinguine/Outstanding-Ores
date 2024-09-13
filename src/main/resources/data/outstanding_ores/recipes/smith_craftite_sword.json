@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "outstanding_ores:craftite_smithing_template"
+  },
+  "base": {
+    "item": "outstanding_ores:cubic_zirconia_sword"
+  },
+  "addition": {
+    "item": "outstanding_ores:craftite"
+  },
+  "result": {
+    "item": "outstanding_ores:craftite_sword"
+  }
+}

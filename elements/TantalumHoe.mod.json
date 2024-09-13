@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "tantalumhoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Tantalum Hoe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§7Gain §r§2Mending§r§7 while in main hand and off hand."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 7.0,
+    "attackSpeed": 5.0,
+    "enchantability": 11,
+    "damageVsEntity": 2.0,
+    "usageCount": 596,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TantalumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "TantalumItemBonusEffect"
+    }
+  }
+}

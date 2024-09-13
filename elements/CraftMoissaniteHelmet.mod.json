@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "crafting",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Moissanite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MoissaniteGem.helmet"
+    },
+    "name": "craft_moissanite_helmet",
+    "namespace": "mod"
+  }
+}

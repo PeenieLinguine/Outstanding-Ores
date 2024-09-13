@@ -1,0 +1,49 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "graphiteshovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Graphite Shovel",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§e§lEfficient §r§8§lWear: §r§7Gain §eEfficiency §r§7when the tool is below a certain level of §8Durability§r§7.",
+        "§eEfficiency I§7:       §f75%",
+        "§eEfficiency II§7:      §f50%",
+        "§eEfficiency III§7:     §f25%"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 5.5,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 4.0,
+    "usageCount": 196,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:GraphiteIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "GraphiteToolBonusEffect"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "GraphiteToolBonusEffect"
+    }
+  }
+}

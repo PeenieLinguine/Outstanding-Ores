@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "outstanding_ores:graphite_ingot"
+    },
+    "title": "Better Than Stone?",
+    "description": "§7Obtain §8Raw Graphite",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_graphite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "outstanding_ores:raw_graphite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "outstanding_ores:enter_the_world"
+}

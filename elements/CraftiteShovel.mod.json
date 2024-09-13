@@ -1,0 +1,59 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "craftiteshovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Craftite Shovel",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§8§lX §r§5§lMarks §r§2§lEvery §r§e§lSpot:§r§7 After digging up",
+        "§6Sand §7there is a chance to discover §eTreasure§7.",
+        "§8Gunpowder:                §f9.6%",
+        "§7Iron:                               §f4.8%",
+        "§6Gold:                              §f2.4%",
+        "§aEmerald:                       §f1.2%",
+        "§bDiamond:                     §f0.64%",
+        "§4Onyx:                             §f0.32%",
+        "§eMoissanite:                  §f0.16%",
+        "§3Cubic Zirconia:           §f0.08%",
+        "§dEnchanted Book:        §f0.04%",
+        "§5Craftite:                         §f0.0002%",
+        "§7§oThe chances for §r§5§oCraftite §r§7§ois low but never 0.",
+        "§7§o     -  Some genius gambling philosopher"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 30.0,
+    "attackSpeed": 1.0,
+    "enchantability": 35,
+    "damageVsEntity": 12.5,
+    "usageCount": 12068,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Craftite"
+      },
+      {
+        "value": "CUSTOM:CraftiteBase"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "CraftiteShovelBonusEffect"
+    }
+  }
+}

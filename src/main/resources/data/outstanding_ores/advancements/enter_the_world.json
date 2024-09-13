@@ -1,0 +1,19 @@
+{
+  "display": {
+    "background": "outstanding_ores:textures/screens/blockofcubiczirconia.png",
+    "icon": {
+      "item": "outstanding_ores:moissanite_pickaxe"
+    },
+    "title": "MORE ORES!!!",
+    "description": "§7Welcome to §r§6Outstanding §r§4Ores",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enter_the_world": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "smelting",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.6,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawGraphite"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:GraphiteIngot"
+    },
+    "name": "graphite_ore_furnace",
+    "namespace": "mod"
+  }
+}

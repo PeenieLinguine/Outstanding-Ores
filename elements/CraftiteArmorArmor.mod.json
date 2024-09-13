@@ -1,0 +1,162 @@
+{
+  "_fv": 57,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "craftitearmor_head",
+    "enableBody": true,
+    "textureBody": "craftitearmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "craftitearmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "craftitearmor_boots",
+    "onHelmetTick": {
+      "name": "CraftiteArmorEffect"
+    },
+    "onBodyTick": {
+      "name": "CraftiteArmorEffect"
+    },
+    "onLeggingsTick": {
+      "name": "CraftiteArmorEffect"
+    },
+    "onBootsTick": {
+      "name": "CraftiteArmorEffect"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "armorTextureFile": "craftitearmor",
+    "helmetName": "Craftite Helmet",
+    "bodyName": "Craftite Chestplate",
+    "leggingsName": "Craftite Leggings",
+    "bootsName": "Craftite Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§dProjectile Protection V",
+        "§1§lWater:",
+        "  §3Water Breathing",
+        "  §bDolphins Grace V",
+        "§6§lFire:",
+        "  §4Fire Resistance",
+        "  §cNo Fall Damage",
+        "§2§lEarth:",
+        "  §fStrength III",
+        "  §8Resistance V",
+        "§f§lAir:",
+        "  §eSuper Speed",
+        "  §6Super Jump"
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§5Thorns V",
+        "§1§lWater:",
+        "  §3Water Breathing",
+        "  §bDolphins Grace V",
+        "§6§lFire:",
+        "  §4Fire Resistance",
+        "  §cNo Fall Damage",
+        "§2§lEarth:",
+        "  §fStrength III",
+        "  §8Resistance V",
+        "§f§lAir:",
+        "  §eSUPER SPEED",
+        "  §6SUPER JUMP"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§8Soul Speed V",
+        "§1§lWater:",
+        "  §3Water Breathing",
+        "  §bDolphins Grace V",
+        "§6§lFire:",
+        "  §4Fire Resistance",
+        "  §cNo Fall Damage",
+        "§2§lEarth:",
+        "  §fStrength III",
+        "  §8Resistance V",
+        "§f§lAir:",
+        "  §eSUPER SPEED",
+        "  §6SUPER JUMP"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§3Depth Strider V",
+        "§1§lWater:",
+        "  §3Water Breathing",
+        "  §bDolphins Grace V",
+        "§6§lFire:",
+        "  §4Fire Resistance",
+        "  §cNo Fall Damage",
+        "§2§lEarth:",
+        "  §fStrength III",
+        "  §8Resistance V",
+        "§f§lAir:",
+        "  §eSUPER SPEED",
+        "  §6SUPER JUMP"
+      ]
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 124,
+    "damageValueHelmet": 6,
+    "damageValueBody": 18,
+    "damageValueLeggings": 16,
+    "damageValueBoots": 6,
+    "enchantability": 50,
+    "toughness": 6.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": "item.armor.equip_elytra"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Craftite"
+      }
+    ]
+  }
+}

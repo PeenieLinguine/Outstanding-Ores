@@ -1,0 +1,47 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "tantalumarsenidepickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Tantalum Arsenide Pickaxe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§c§lExplosive",
+        "§7While destroying a block, hold §r§d§nShift§7 key to trigger."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 6,
+    "efficiency": 12.0,
+    "attackSpeed": 1.2,
+    "enchantability": 20,
+    "damageVsEntity": 8.0,
+    "usageCount": 3256,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TantalumArsenideIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "TantalumArsenideWeaponEffect"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "TantalumArsenideToolEffect"
+    }
+  }
+}

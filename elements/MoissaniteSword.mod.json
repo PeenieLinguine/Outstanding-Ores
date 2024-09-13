@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "moissanitesword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Moissanite Sword",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§7Gain §r§6Fire Aspect§r§7 while in main hand and off hand."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
+    "damageVsEntity": 9.0,
+    "usageCount": 6592,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Moissanite"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "MoissaniteWeaponBonusEffect"
+    },
+    "onItemInInventoryTick": {
+      "name": "MoissaniteWeaponBonusEffect"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:moissanite"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:moissanite_gem_chestplate",
+    "count": 1
+  }
+}

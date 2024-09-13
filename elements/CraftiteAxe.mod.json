@@ -1,0 +1,55 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "craftiteaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Craftite Axe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§1§lSkyward §r§4§lStrike:§r§7 On §r§d§nRight Click§r§7,",
+        "§7after a short charge, you gain extreme §r§8Resistance",
+        "§7and are launched into the air §r§e3 §r§7separate times.",
+        "§7When you land, the ground §r§c§lExplodes §r§7beneath you.",
+        "§7After each iteration, you are launched higher",
+        "§7and your §r§c§lExplosions §r§7increase in §r§eMagnitude§r§7.",
+        "§b15 second cooldown"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 30.0,
+    "attackSpeed": 1.0,
+    "enchantability": 35,
+    "damageVsEntity": 20.0,
+    "usageCount": 12068,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Craftite"
+      },
+      {
+        "value": "CUSTOM:CraftiteBase"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "CraftiteAxeWeaponBonusEffect"
+    },
+    "onRightClickedOnBlock": {
+      "name": "CraftiteAxeWeaponBonusEffect"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "outstanding_ores:dragon_scales"
+    },
+    "title": "§0True Late Game Scaling",
+    "description": "§7Obtain a §0Dragon Scale",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_dragon_scales": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "outstanding_ores:dragon_scales"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "outstanding_ores:obtain_wither_spine"
+}

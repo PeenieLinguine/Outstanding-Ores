@@ -1,0 +1,49 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "graphitepickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Graphite Pickaxe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§e§lEfficient §r§8§lWear: §r§7Gain §eEfficiency §r§7when the tool is below a certain level of §8Durability§r§7.",
+        "§eEfficiency I§7:       §f75%",
+        "§eEfficiency II§7:      §f50%",
+        "§eEfficiency III§7:     §f25%"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 2,
+    "efficiency": 5.5,
+    "attackSpeed": 1.2,
+    "enchantability": 12,
+    "damageVsEntity": 3.0,
+    "usageCount": 196,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:GraphiteIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "GraphiteToolBonusEffect"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "GraphiteToolBonusEffect"
+    }
+  }
+}

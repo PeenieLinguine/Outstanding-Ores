@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "outstanding_ores",
+  "version": "1.0.0",
+  "name": "Outstanding Ores",
+  "authors": [
+    "micha, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "accessWidener": "outstanding_ores.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.outstandingores.OutstandingOresMod"
+    ],
+    "client": [
+      "net.mcreator.outstandingores.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "outstanding_ores.mixins.json"
+  ]
+}

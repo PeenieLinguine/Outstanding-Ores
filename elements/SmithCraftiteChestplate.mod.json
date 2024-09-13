@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "smithing",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:CubicZirconiaArmor.body"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Craftite"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:CraftiteSmithingTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:CraftiteArmorArmor.body"
+    },
+    "name": "smith_craftite_chestplate",
+    "namespace": "mod"
+  }
+}

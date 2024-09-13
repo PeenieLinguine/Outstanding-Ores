@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Outstanding Ores",
+    "icon": {
+      "value": "CUSTOM:MoissanitePickaxe"
+    },
+    "showSearch": false
+  }
+}

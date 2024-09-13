@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:tantalum_ingot"
+    },
+    "b": {
+      "item": "outstanding_ores:talc_rod"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:tantalum_pickaxe",
+    "count": 1
+  }
+}

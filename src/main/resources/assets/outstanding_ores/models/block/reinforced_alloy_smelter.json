@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outstanding_ores:block/reinforcedalloysmelterbottom",
+    "up": "outstanding_ores:block/reinforcedalloysmeltertop",
+    "north": "outstanding_ores:block/reinforcedalloysmelterfront",
+    "east": "outstanding_ores:block/reinforcedalloysmeltersides",
+    "south": "outstanding_ores:block/reinforcedalloysmeltersides",
+    "west": "outstanding_ores:block/reinforcedalloysmeltersides",
+    "particle": "outstanding_ores:block/reinforcedalloysmelterbottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,109 @@
+{
+  "_fv": 57,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "tungstenhelmet",
+    "enableBody": true,
+    "textureBody": "tungstenchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "tungstenleggings",
+    "enableBoots": true,
+    "textureBoots": "tungstenboots",
+    "onBodyTick": {
+      "name": "TungstenArmorEffect"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "armorTextureFile": "tungsten",
+    "helmetName": "Tungsten Helmet",
+    "bodyName": "Tungsten Chestplate",
+    "leggingsName": "Tungsten Leggings",
+    "bootsName": "Tungsten Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§8Resistance",
+        "§fStrength"
+      ]
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§8Resistance",
+        "§fStrength"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§8Resistance",
+        "§fStrength"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "§cFull Set Bonus Effect:",
+        "§8Resistance",
+        "§fStrength"
+      ]
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 41,
+    "damageValueHelmet": 3,
+    "damageValueBody": 9,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 3,
+    "enchantability": 18,
+    "toughness": 3.5,
+    "knockbackResistance": 0.15,
+    "equipSound": {
+      "value": "item.armor.equip_diamond"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TungstenIngot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "blasting",
+  "category": "misc",
+  "experience": 0.9,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "outstanding_ores:raw_tungsten"
+  },
+  "result": "outstanding_ores:tungsten_ingot"
+}

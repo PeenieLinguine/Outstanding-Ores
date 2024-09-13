@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "blasting",
+  "category": "misc",
+  "experience": 0.6,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "outstanding_ores:raw_graphite"
+  },
+  "result": "outstanding_ores:graphite_ingot"
+}

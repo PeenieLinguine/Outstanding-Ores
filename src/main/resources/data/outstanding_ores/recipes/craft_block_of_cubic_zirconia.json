@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:cubic_zirconia"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:block_of_cubic_zirconia",
+    "count": 1
+  }
+}

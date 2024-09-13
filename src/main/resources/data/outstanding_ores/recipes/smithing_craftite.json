@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "outstanding_ores:warden_rib_piece"
+  },
+  "base": {
+    "item": "outstanding_ores:craftite_base"
+  },
+  "addition": {
+    "item": "outstanding_ores:craftite_binding"
+  },
+  "result": {
+    "item": "outstanding_ores:craftite"
+  }
+}

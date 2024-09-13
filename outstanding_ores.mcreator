@@ -1,0 +1,4618 @@
+{
+  "mod_elements": [
+    {
+      "name": "RawTungsten",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/RawTungstenItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/raw_tungsten.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/tungsten_ore.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/tungsten_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/block/tungsten_ore.json",
+          "src/main/java/net/mcreator/outstandingores/block/TungstenOreBlock.java",
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/tungsten_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenIngot",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_ingot.json",
+          "src/main/java/net/mcreator/outstandingores/item/TungstenIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SmeltrawTungsten",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltraw_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smelt_raw_tungsten.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTungstenPickaxe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tungsten_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tungsten_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenPickaxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TungstenPickaxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTungstenSword",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tungsten_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tungsten_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenAxe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_axe.json",
+          "src/main/java/net/mcreator/outstandingores/item/TungstenAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TungstenShovel",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_shovel.json",
+          "src/main/java/net/mcreator/outstandingores/item/TungstenShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TungstenHoe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TungstenHoeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTungstenAxe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tungsten_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tungsten_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTungstenShovel",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tungsten_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tungsten_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTungstenHoe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tungsten_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tungsten_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfTungsten",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfTungstenBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_tungsten.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_tungsten.json",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_tungsten.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tungsten_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tungsten_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tungsten_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tungsten_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungsten",
+      "type": "armor",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_boots.json",
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_chestplate.json",
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_leggings.json",
+          "src/main/java/net/mcreator/outstandingores/item/TungstenItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfRawTungsten",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_raw_tungsten.json",
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_raw_tungsten.json",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_raw_tungsten.json",
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfRawTungstenBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlockOfRawTungsten",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_block_of_raw_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_block_of_raw_tungsten.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlockOfTungsten",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_block_of_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_block_of_tungsten.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenSword",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tungsten_sword.json",
+          "src/main/java/net/mcreator/outstandingores/item/TungstenSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Onyx",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/OnyxItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/onyx.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxOre",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/onyx_ore.json",
+          "src/main/java/net/mcreator/outstandingores/block/OnyxOreBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_ore.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/onyx_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/block/onyx_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/onyx_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxSword",
+      "type": "tool",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/OnyxSwordItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftOnyxSword",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_onyx_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_onyx_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxPickaxe",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_pickaxe.json",
+          "src/main/java/net/mcreator/outstandingores/item/OnyxPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftOnyxPickaxe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_onyx_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_onyx_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfOnyx",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_onyx",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_onyx.json",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_onyx.json",
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfOnyxBlock.java",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_onyx.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlockOfOnyx",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_block_of_onyx",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_block_of_onyx.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxGem",
+      "type": "armor",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_gem_boots.json",
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_gem_leggings.json",
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_gem_helmet.json",
+          "src/main/java/net/mcreator/outstandingores/item/OnyxGemItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_gem_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/GraphiteIngotItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/graphite_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/blockstates/graphite_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/block/graphite_ore.json",
+          "src/main/java/net/mcreator/outstandingores/block/GraphiteOreBlock.java",
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/graphite_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/item/graphite_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/graphite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteOreSmelting",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/graphite_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphitePickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/GraphitePickaxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/graphite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/graphite_sword.json",
+          "src/main/java/net/mcreator/outstandingores/item/GraphiteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GraphitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/graphite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/graphite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RawGraphite",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_graphite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/RawGraphiteItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/raw_graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenBlockToIngot",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tungsten_block_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxBlockToGem",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_block_to_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/onyx_block_to_gem.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTungstenBlockToRaw",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_block_to_raw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/raw_tungsten_block_to_raw.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateGraphiteOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_graphite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/deepslate_graphite_ore.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/deepslate_graphite_ore.json",
+          "src/main/java/net/mcreator/outstandingores/block/DeepslateGraphiteOreBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/item/deepslate_graphite_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/deepslate_graphite_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/block/deepslate_graphite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfGraphite",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_graphite.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_graphite.json",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_graphite.json",
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfGraphiteBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlockOfGraphite",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_block_of_graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_block_of_graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteBlockToIngot",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_block_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/graphite_block_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfRawGraphite",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_graphite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfRawGraphiteBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_raw_graphite.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_raw_graphite.json",
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_raw_graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlockOfRawGraphite",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_block_of_raw_graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_block_of_raw_graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "RawGraphiteBlockToIngot",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_graphite_block_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/raw_graphite_block_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Moissanite",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/MoissaniteItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite.json"
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteOre",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_ore.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/moissanite_ore.json",
+          "src/main/java/net/mcreator/outstandingores/block/MoissaniteOreBlock.java",
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/moissanite_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/block/moissanite_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/moissanite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/moissanite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/moissanite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfMoissanite",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_moissanite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_moissanite.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_moissanite.json",
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfMoissaniteBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_moissanite.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/TungstenOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnyxOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/OnyxOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GraphiteOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/GraphiteOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_ore_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/MoissaniteOreBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoissanitePickaxe",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_pickaxe.json",
+          "src/main/java/net/mcreator/outstandingores/item/MoissanitePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftMoissanitePickaxe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_moissanite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_moissanite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "OutstandingOres",
+      "type": "tab",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outstanding_ores",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MoissaniteSword",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/MoissaniteSwordItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxAxe",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/OnyxAxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftOnyxAxe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_onyx_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_onyx_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxShovel",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_shovel.json",
+          "src/main/java/net/mcreator/outstandingores/item/OnyxShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftOnyxShovel",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_onyx_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_onyx_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxHoe",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/OnyxHoeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/onyx_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftOnyxHoe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_onyx_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_onyx_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteAxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/GraphiteAxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/graphite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftGraphiteAxe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_graphite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_graphite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteShovel",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/graphite_shovel.json",
+          "src/main/java/net/mcreator/outstandingores/item/GraphiteShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteHoe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/GraphiteHoeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/graphite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteAxe",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/MoissaniteAxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteShovel",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/MoissaniteShovelItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteHoe",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/MoissaniteHoeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftGraphiteShovel",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_graphite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_graphite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftGraphiteHoe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_graphite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_graphite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftMoissaniteSword",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_moissanite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_moissanite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftMoissaniteAxe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_moissanite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_moissanite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftMoissaniteShovel",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_moissanite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_moissanite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftMoissaniteHoe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_moissanite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_moissanite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteGem",
+      "type": "armor",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_gem_leggings.json",
+          "src/main/java/net/mcreator/outstandingores/item/MoissaniteGemItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_gem_boots.json",
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_gem_helmet.json",
+          "src/main/resources/assets/outstanding_ores/models/item/moissanite_gem_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftMoissaniteHelmet",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_moissanite_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_moissanite_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftMoissaniteChestplate",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_moissanite_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_moissanite_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftMoissaniteLeggings",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_moissanite_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_moissanite_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftMoissaniteBoots",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_moissanite_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_moissanite_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftOnyxHelmet",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_onyx_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_onyx_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftOnyxChestplate",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_onyx_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_onyx_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftOnyxLeggings",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_onyx_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_onyx_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftOnyxBoots",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_onyx_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_onyx_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Talc",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/block/talc.json",
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/talc.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/talc.json",
+          "src/main/resources/assets/outstanding_ores/models/item/talc.json",
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/talc.json",
+          "src/main/java/net/mcreator/outstandingores/block/TalcBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TalcShard",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talc_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TalcShardItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/talc_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "TalcShardToTalc",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talc_shard_to_talc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/talc_shard_to_talc.json"
+        ]
+      }
+    },
+    {
+      "name": "StonecutterTalc",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecutter_talc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/stonecutter_talc.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedTalc",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_talc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/reinforced_talc.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/reinforced_talc.json",
+          "src/main/java/net/mcreator/outstandingores/block/ReinforcedTalcBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/block/reinforced_talc.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftReinforcedTalc",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_reinforced_talc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_reinforced_talc.json"
+        ]
+      }
+    },
+    {
+      "name": "OnyxArmorEffect",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/OnyxArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteArmorEffect",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/MoissaniteArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteItemBonusEffect",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_item_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/MoissaniteItemBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Smelting",
+      "type": "enchantment",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/enchantment/SmeltingEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteWeaponBonusEffect",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_weapon_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/MoissaniteWeaponBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WardenRib",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_rib",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/WardenRibItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/warden_rib.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenRibPiece",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_rib_piece",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/warden_rib_piece.json",
+          "src/main/java/net/mcreator/outstandingores/item/WardenRibPieceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WardenDrop",
+      "type": "loottable",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/warden.json"
+        ]
+      }
+    },
+    {
+      "name": "WardenRibPlayerConsume",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_rib_player_consume",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/WardenRibPlayerConsumeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RawTantalum",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tantalum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/RawTantalumItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/raw_tantalum.json"
+        ]
+      }
+    },
+    {
+      "name": "RawArsenic",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_arsenic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/RawArsenicItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/raw_arsenic.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumIngot",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TantalumIngotItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicIngot",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_ingot.json",
+          "src/main/java/net/mcreator/outstandingores/item/ArsenicIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideIngot",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TantalumArsenideIngotItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumOre",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/tantalum_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_ore.json",
+          "src/main/java/net/mcreator/outstandingores/block/TantalumOreBlock.java",
+          "src/main/resources/assets/outstanding_ores/blockstates/tantalum_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/tantalum_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/block/tantalum_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicOre",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/arsenic_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/block/arsenic_ore.json",
+          "src/main/java/net/mcreator/outstandingores/block/ArsenicOreBlock.java",
+          "src/main/resources/assets/outstanding_ores/blockstates/arsenic_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/arsenic_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateTantalumOre",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_tantalum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/deepslate_tantalum_ore.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/deepslate_tantalum_ore.json",
+          "src/main/java/net/mcreator/outstandingores/block/DeepslateTantalumOreBlock.java",
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/deepslate_tantalum_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/deepslate_tantalum_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/block/deepslate_tantalum_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedAlloySmelter",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_alloy_smelter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/block/ReinforcedAlloySmelterBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/item/reinforced_alloy_smelter.json",
+          "src/main/resources/assets/outstanding_ores/models/block/reinforced_alloy_smelter.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/reinforced_alloy_smelter.json"
+        ]
+      }
+    },
+    {
+      "name": "BlacksmithTantalumArsenide",
+      "type": "villagertrade",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacksmith_tantalum_arsenide",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SmithingTantalumArsenideIngot",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_tantalum_arsenide_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smithing_tantalum_arsenide_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconia",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CubicZirconiaItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteRod",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/GraphiteRodItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/graphite_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftGraphiteRod",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_graphite_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_graphite_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicPickaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/ArsenicPickaxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicSword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/ArsenicSwordItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicAxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_axe.json",
+          "src/main/java/net/mcreator/outstandingores/item/ArsenicAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicShovel",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/ArsenicShovelItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicHoe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_hoe.json",
+          "src/main/java/net/mcreator/outstandingores/item/ArsenicHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftArsenicPickaxe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_arsenic_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_arsenic_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftArsenicSword",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_arsenic_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_arsenic_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftArsenicAxe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_arsenic_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_arsenic_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftArsenicShovel",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_arsenic_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_arsenic_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftArsenicHoe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_arsenic_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_arsenic_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfRawArsenic",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_arsenic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfRawArsenicBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_raw_arsenic.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_raw_arsenic.json",
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_raw_arsenic.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlockOfRawArsenic",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_block_of_raw_arsenic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_block_of_raw_arsenic.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftRawArsenic",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_raw_arsenic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_raw_arsenic.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfArsenic",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_arsenic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_arsenic.json",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_arsenic.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_arsenic.json",
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfArsenicBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftArsenicBlock",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_arsenic_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_arsenic_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftArsenicIngot",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_arsenic_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_arsenic_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "TalcRod",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talc_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TalcRodItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/talc_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumPickaxe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TantalumPickaxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumPickaxe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumSword",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TantalumSwordItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumSword",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumAxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_axe.json",
+          "src/main/java/net/mcreator/outstandingores/item/TantalumAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumAxe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumShovel",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TantalumShovelItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumShovel",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumHoe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_hoe.json",
+          "src/main/java/net/mcreator/outstandingores/item/TantalumHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumHoe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfTantalum",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tantalum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfTantalumBlock.java",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_tantalum.json",
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_tantalum.json",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_tantalum.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfRawTantalum",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_tantalum",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_raw_tantalum.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_raw_tantalum.json",
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfRawTantalumBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_raw_tantalum.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftRawTantalumBlock",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_raw_tantalum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_raw_tantalum_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftRawTantalum",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_raw_tantalum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_raw_tantalum.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumBlock",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumIngot",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumOreDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_ore_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/TantalumOreDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArsenicOreDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_ore_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/ArsenicOreDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitherSpineFragment",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_spine_fragment",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/wither_spine_fragment.json",
+          "src/main/java/net/mcreator/outstandingores/item/WitherSpineFragmentItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DragonScales",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_scales",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/DragonScalesItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/dragon_scales.json"
+        ]
+      }
+    },
+    {
+      "name": "ElderGuardianEye",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_guardian_eye",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/ElderGuardianEyeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/elder_guardian_eye.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftiteBinding",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_binding",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_binding.json",
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteBindingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SmithingCraftiteBinding",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_craftite_binding",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smithing_craftite_binding.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftiteSmithingTemplate",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_smithing_template.json",
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteSmithingTemplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderDragonDrop",
+      "type": "loottable",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_dragon_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ender_dragon.json"
+        ]
+      }
+    },
+    {
+      "name": "WitherDrop",
+      "type": "loottable",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/wither.json"
+        ]
+      }
+    },
+    {
+      "name": "ElderGuardianDrop",
+      "type": "loottable",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_guardian_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/loot_tables/entities/elder_guardian.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithingCraftiteBase",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_craftite_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smithing_craftite_base.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithingCraftite",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smithing_craftite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smithing_craftite.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftiteBase",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_base.json",
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteBaseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Craftite",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftiteSmithingDuplicate",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_smithing_duplicate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craftite_smithing_duplicate.json"
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaOre",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/block/CubicZirconiaOreBlock.java",
+          "src/main/resources/assets/outstanding_ores/blockstates/cubic_zirconia_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/placed_feature/cubic_zirconia_ore.json",
+          "src/main/resources/assets/outstanding_ores/models/block/cubic_zirconia_ore.json",
+          "src/main/resources/data/outstanding_ores/worldgen/configured_feature/cubic_zirconia_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CubicZirconiaDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockOfCubicZirconia",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_cubic_zirconia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfCubicZirconiaBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_cubic_zirconia.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_cubic_zirconia.json",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_cubic_zirconia.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlockOfCubicZirconia",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_block_of_cubic_zirconia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_block_of_cubic_zirconia.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCubicZirconia",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfTantalumArsenide",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tantalum_arsenide",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfTantalumArsenideBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_tantalum_arsenide.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_tantalum_arsenide.json",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_tantalum_arsenide.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBlockOfTantalumArsenide",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_block_of_tantalum_arsenide",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_block_of_tantalum_arsenide.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumArsenide",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_arsenide",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_arsenide.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfCraftite",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_craftite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/block/BlockOfCraftiteBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/item/block_of_craftite.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/block_of_craftite.json",
+          "src/main/resources/assets/outstanding_ores/models/block/block_of_craftite.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockOfCraftiteTeleport",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_craftite_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/BlockOfCraftiteTeleportProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CraftTalcRod",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_talc_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_talc_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenidePickaxe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_pickaxe.json",
+          "src/main/java/net/mcreator/outstandingores/item/TantalumArsenidePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideSword",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TantalumArsenideSwordItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideAxe",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_axe.json",
+          "src/main/java/net/mcreator/outstandingores/item/TantalumArsenideAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideShovel",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_shovel.json",
+          "src/main/java/net/mcreator/outstandingores/item/TantalumArsenideShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideHoe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_hoe.json",
+          "src/main/java/net/mcreator/outstandingores/item/TantalumArsenideHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumArsenidePickaxe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_arsenide_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_arsenide_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumArsenideSword",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_arsenide_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_arsenide_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumArsenideAxe",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_arsenide_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_arsenide_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumArsenideShovel",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_arsenide_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_arsenide_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftTantalumArsenideHoe",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_tantalum_arsenide_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_tantalum_arsenide_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaPickaxe",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CubicZirconiaPickaxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaSword",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CubicZirconiaSwordItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaAxe",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CubicZirconiaAxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaShovel",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CubicZirconiaShovelItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaHoe",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CubicZirconiaHoeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCubicZirconiaPickaxe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCubicZirconiaSword",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCubicZirconiaAxe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCubicZirconiaShovel",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCubicZirconiaHoe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftitePickaxe",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CraftitePickaxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftiteSword",
+      "type": "tool",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteSwordItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftiteHoe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteHoeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftiteShovel",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_shovel.json",
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftiteAxe",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteAxeItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithCraftitePickaxe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_craftite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smith_craftite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithCraftiteSword",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_craftite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smith_craftite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithCraftiteAxe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_craftite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smith_craftite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithCraftiteShovel",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_craftite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smith_craftite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithCraftiteHoe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_craftite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smith_craftite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaArmor",
+      "type": "armor",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_armor_chestplate.json",
+          "src/main/java/net/mcreator/outstandingores/item/CubicZirconiaArmorItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_armor_helmet.json",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_armor_boots.json",
+          "src/main/resources/assets/outstanding_ores/models/item/cubic_zirconia_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicArmor",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_armor_leggings.json",
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_armor_helmet.json",
+          "src/main/java/net/mcreator/outstandingores/item/ArsenicArmorItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_armor_chestplate.json",
+          "src/main/resources/assets/outstanding_ores/models/item/arsenic_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/arsenic_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/arsenic_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/arsenic_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ArsenicArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/arsenic_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArmor",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_armor_helmet.json",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_armor_boots.json",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_armor_chestplate.json",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_armor_leggings.json",
+          "src/main/java/net/mcreator/outstandingores/item/TantalumArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tantalum_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tantalum_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tantalum_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tantalum_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumAsenideArmorArmor",
+      "type": "armor",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/TantalumAsenideArmorArmorItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_armor_chestplate.json",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_armor_leggings.json",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_armor_boots.json",
+          "src/main/resources/assets/outstanding_ores/models/item/tantalum_arsenide_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftiteArmorArmor",
+      "type": "armor",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_boots.json",
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteArmorArmorItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_chestplate.json",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_helmet.json",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tantalum_arsenide_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tantalum_arsenide_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tantalum_arsenide_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/tantalum_arsenide_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithCraftiteHelmet",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_craftite_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smith_craftite_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithCraftiteChestplate",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_craftite_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smith_craftite_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithCraftiteLeggings",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_craftite_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smith_craftite_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithCraftiteBoots",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_craftite_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/smith_craftite_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "TantalumItemBonusEffect",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_item_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/TantalumItemBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArsenicArmorEffect",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/ArsenicArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantalumArmorEffect",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/TantalumArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideToolEffect",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_tool_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/TantalumArsenideToolEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideWeaponEffect",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_weapon_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/TantalumArsenideWeaponEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TantalumArsenideArmorEffect",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tantalum_arsenide_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/TantalumArsenideArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArsenicToolBonusEffect",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_tool_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/ArsenicToolBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArsenicWeaponBonusEffect",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arsenic_weapon_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/ArsenicWeaponBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnyxWeaponBonusEffect",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_weapon_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/OnyxWeaponBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnyxToolBonusEffect",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_tool_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/OnyxToolBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TungstenArmorEffect",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/TungstenArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TungstenItembonusEffect",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_itembonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/TungstenItembonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaArmorEffect",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CubicZirconiaArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaToolEffect",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_tool_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CubicZirconiaToolEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CubicZirconiaWeaponEffect",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubic_zirconia_weapon_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CubicZirconiaWeaponEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftiteArmorEffect",
+      "type": "procedure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CraftiteArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoverMeInMinecraft",
+      "type": "achievement",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cover_me_in_minecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/cover_me_in_minecraft.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteOreFurnace",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_ore_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/graphite_ore_furnace.json"
+        ]
+      }
+    },
+    {
+      "name": "MoissanitePickaxeBonusEffect",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_pickaxe_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/MoissanitePickaxeBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToastyBread",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toasty_bread",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/item/ToastyBreadItem.java",
+          "src/main/resources/assets/outstanding_ores/models/item/toasty_bread.json"
+        ]
+      }
+    },
+    {
+      "name": "BreadToToastyBread",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_to_toasty_bread",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/bread_to_toasty_bread.json"
+        ]
+      }
+    },
+    {
+      "name": "MoissaniteHoeBonusEffect",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moissanite_hoe_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/MoissaniteHoeBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftiteHoeBonusEffect",
+      "type": "procedure",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_hoe_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CraftiteHoeBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftiteAxeWeaponBonusEffect",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_axe_weapon_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CraftiteAxeWeaponBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftiteSwordBonusEffect",
+      "type": "procedure",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_sword_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CraftiteSwordBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftitePickaxeBonusEffect",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_pickaxe_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CraftitePickaxeBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftiteShovelBonusEffect",
+      "type": "procedure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_shovel_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/CraftiteShovelBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObtainGraphite",
+      "type": "achievement",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainArsenic",
+      "type": "achievement",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_arsenic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_arsenic.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainTantalum",
+      "type": "achievement",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_tantalum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_tantalum.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainTungsten",
+      "type": "achievement",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_tungsten.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainOnyx",
+      "type": "achievement",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_onyx",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_onyx.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainMoissanite",
+      "type": "achievement",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_moissanite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_moissanite.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainCubicZirconia",
+      "type": "achievement",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_cubic_zirconia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_cubic_zirconia.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainCraftite",
+      "type": "achievement",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_craftite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_craftite.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainTantalumArsenide",
+      "type": "achievement",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_tantalum_arsenide",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_tantalum_arsenide.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainWardenRib",
+      "type": "achievement",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_warden_rib",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_warden_rib.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainElderGuardianEye",
+      "type": "achievement",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_elder_guardian_eye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_elder_guardian_eye.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainWitherSpine",
+      "type": "achievement",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_wither_spine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_wither_spine.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainDragonScales",
+      "type": "achievement",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_dragon_scales",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_dragon_scales.json"
+        ]
+      }
+    },
+    {
+      "name": "EnterTheWorld",
+      "type": "achievement",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enter_the_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/enter_the_world.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainTalc",
+      "type": "achievement",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_talc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_talc.json"
+        ]
+      }
+    },
+    {
+      "name": "ObtainCraftiteBinding",
+      "type": "achievement",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_craftite_binding",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/advancements/obtain_craftite_binding.json"
+        ]
+      }
+    },
+    {
+      "name": "GlowingGraphite",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/block/glowing_graphite.json",
+          "src/main/java/net/mcreator/outstandingores/block/GlowingGraphiteBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/item/glowing_graphite.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/glowing_graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteSwordBonusEffect",
+      "type": "procedure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_sword_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/GraphiteSwordBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpBoostGraphite",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_boost_graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/jump_boost_graphite.json",
+          "src/main/java/net/mcreator/outstandingores/block/JumpBoostGraphiteBlock.java",
+          "src/main/resources/assets/outstanding_ores/models/block/jump_boost_graphite.json",
+          "src/main/resources/assets/outstanding_ores/blockstates/jump_boost_graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftFusedGraphite",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_fused_graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_fused_graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftGlowingGraphite",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_glowing_graphite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_glowing_graphite.json"
+        ]
+      }
+    },
+    {
+      "name": "GraphiteWeaponBonusEffect",
+      "type": "procedure",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_weapon_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/GraphiteWeaponBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GraphiteToolBonusEffect",
+      "type": "procedure",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphite_tool_bonus_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outstandingores/procedures/GraphiteToolBonusEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.outstanding_ores.raw_tungsten": "Raw Tungsten",
+      "item.outstanding_ores.tantalum_arsenide_hoe": "Tantalum Arsenide Hoe",
+      "advancements.obtain_tungsten.title": "The Tanky Metal",
+      "item.outstanding_ores.onyx_gem_boots": "Onyx Boots",
+      "item.outstanding_ores.raw_tantalum": "Raw Tantalum",
+      "advancements.obtain_cubic_zirconia.title": "Water Isn\u0027t An Issue Anymore",
+      "item.outstanding_ores.toasty_bread": "Toasty Bread",
+      "item.outstanding_ores.moissanite_sword": "Moissanite Sword",
+      "item.outstanding_ores.arsenic_pickaxe": "Arsenic Pickaxe",
+      "item.outstanding_ores.graphite_ingot": "Graphite",
+      "item.outstanding_ores.onyx_sword": "Onyx Sword",
+      "item.outstanding_ores.craftite_armor_boots": "Craftite Boots",
+      "advancements.obtain_craftite.title": "§5How Did We Get This?",
+      "advancements.obtain_dragon_scales.descr": "§7Obtain a §0Dragon Scale",
+      "item.outstanding_ores.moissanite_pickaxe": "Moissanite Pickaxe",
+      "item.outstanding_ores.graphite_rod": "Graphite Rod",
+      "item.outstanding_ores.craftite_base": "Craftite Base",
+      "item.outstanding_ores.tantalum_armor_chestplate": "Tantalum Chestplate",
+      "item.outstanding_ores.cubic_zirconia": "Cubic Zirconia",
+      "item.outstanding_ores.tantalum_axe": "Tantalum Axe",
+      "item.outstanding_ores.arsenic_sword": "Arsenic Sword",
+      "advancements.obtain_talc.descr": "§7Obtain §aTalc",
+      "item.outstanding_ores.cubic_zirconia_armor_boots": "Cubic Zirconia Boots",
+      "advancements.obtain_elder_guardian_eye.descr": "§7Obtain an §6Elder Guaridan Eye",
+      "item.outstanding_ores.onyx_gem_leggings": "Onyx Leggings",
+      "item.outstanding_ores.arsenic_armor_chestplate": "Arsenic Chestplate",
+      "advancements.obtain_graphite.descr": "§7Obtain §8Raw Graphite",
+      "block.outstanding_ores.cubic_zirconia_ore": "Cubic Zirconia Ore",
+      "item.outstanding_ores.tungsten_helmet": "Tungsten Helmet",
+      "block.outstanding_ores.moissanite_ore": "Moissanite Ore",
+      "item.outstanding_ores.cubic_zirconia_pickaxe": "Cubic Zirconia Pickaxe",
+      "item.outstanding_ores.craftite_armor_chestplate": "Craftite Chestplate",
+      "item.outstanding_ores.tantalum_hoe": "Tantalum Hoe",
+      "advancements.obtain_craftite_binding.title": "It All Binds Together",
+      "item.outstanding_ores.onyx": "Onyx",
+      "advancements.enter_the_world.title": "MORE ORES!!!",
+      "advancements.obtain_arsenic.title": "A Poisoning Discovery",
+      "block.outstanding_ores.tungsten_ore": "Tungsten Ore",
+      "advancements.obtain_onyx.descr": "§7Obtain §4Onyx",
+      "item.outstanding_ores.tantalum_arsenide_shovel": "Tantalum Arsenide Shovel",
+      "advancements.obtain_tantalum.title": "Mend What Has Been Broken",
+      "item.outstanding_ores.moissanite_hoe": "Moissanite Hoe",
+      "item.outstanding_ores.elder_guardian_eye": "Elder Guardian Eye",
+      "advancements.obtain_warden_rib.title": "§3I CAN EAT THIS???",
+      "item.outstanding_ores.tungsten_hoe": "Tungsten Hoe",
+      "item.outstanding_ores.tungsten_boots": "Tungsten Boots",
+      "item.outstanding_ores.onyx_gem_helmet": "Onyx Helmet",
+      "block.outstanding_ores.reinforced_alloy_smelter": "Reinforced Alloy Smelter",
+      "item.outstanding_ores.craftite_smithing_template": "Craftite Smithing Template",
+      "advancements.obtain_wither_spine.title": "§8Your Opponent Is Now Spineless",
+      "item.outstanding_ores.talc_shard": "Talc Shard",
+      "advancements.obtain_onyx.title": "Cleanse And Consume",
+      "item.outstanding_ores.moissanite_gem_leggings": "Moissanite Leggings",
+      "item.outstanding_ores.tantalum_armor_boots": "Tantalum Boots",
+      "item.outstanding_ores.craftite_armor_leggings": "Craftite Leggings",
+      "item.outstanding_ores.onyx_axe": "Onyx Axe",
+      "item.outstanding_ores.onyx_pickaxe": "Onyx Pickaxe",
+      "block.outstanding_ores.onyx_ore": "Onyx Ore",
+      "item.outstanding_ores.onyx_shovel": "Onyx Shovel",
+      "item.outstanding_ores.arsenic_ingot": "Arsenic Ingot",
+      "item.outstanding_ores.craftite_binding": "Craftite Binding",
+      "block.outstanding_ores.tantalum_ore": "Tantalum Ore",
+      "item.outstanding_ores.cubic_zirconia_armor_chestplate": "Cubic Zirconia Chestplate",
+      "enchantment.outstanding_ores.smelting": "Smelting",
+      "item.outstanding_ores.graphite_axe": "Graphite Axe",
+      "block.outstanding_ores.block_of_raw_arsenic": "Block Of Raw Arsenic",
+      "item.outstanding_ores.craftite_axe": "Craftite Axe",
+      "item.outstanding_ores.tantalum_ingot": "Tantalum Ingot",
+      "advancements.obtain_arsenic.descr": "§7Obtain §dRaw Arsenic",
+      "item.outstanding_ores.moissanite_axe": "Moissanite Axe",
+      "item.outstanding_ores.moissanite": "Moissanite",
+      "item.outstanding_ores.tantalum_armor_helmet": "Tantalum Helmet",
+      "block.outstanding_ores.block_of_raw_tantalum": "Block Of Raw Tantalum",
+      "item.outstanding_ores.graphite_sword": "Graphite Sword",
+      "block.outstanding_ores.block_of_arsenic": "Block Of Arsenic",
+      "item.outstanding_ores.graphite_shovel": "Graphite Shovel",
+      "block.outstanding_ores.glowing_graphite": "Glowing Graphite",
+      "item.outstanding_ores.tantalum_arsenide_ingot": "Tantalum Arsenide Ingot",
+      "item.outstanding_ores.craftite_hoe": "Craftite Hoe",
+      "item.outstanding_ores.graphite_pickaxe": "Graphite Pickaxe",
+      "item.outstanding_ores.craftite_pickaxe": "Craftite Pickaxe",
+      "item.outstanding_ores.arsenic_shovel": "Arsenic Shovel",
+      "block.outstanding_ores.block_of_tantalum": "Block Of Tantalum",
+      "block.outstanding_ores.reinforced_talc": "Reinforced Talc",
+      "item.outstanding_ores.onyx_gem_chestplate": "Onyx Chestplate",
+      "item.outstanding_ores.onyx_hoe": "Onyx Hoe",
+      "advancements.obtain_craftite_binding.descr": "§7Obtain §8Craftite Binding",
+      "item.outstanding_ores.tantalum_armor_leggings": "Tantalum Leggings",
+      "item.outstanding_ores.tantalum_arsenide_armor_helmet": "Tantalum Arsenide Helmet",
+      "advancements.obtain_tantalum.descr": "§7Obtain §2Raw Tantalum",
+      "item.outstanding_ores.tantalum_sword": "Tantalum Sword",
+      "item.outstanding_ores.cubic_zirconia_2_chestplate": "Cubic Zirconia 2 Chestplate",
+      "advancements.obtain_cubic_zirconia.descr": "§7Obtain §3Cubic Zirconia",
+      "item.outstanding_ores.tungsten_sword": "Tungsten Sword",
+      "advancements.obtain_talc.title": "Time For Stonecutter",
+      "item.outstanding_ores.graphite_hoe": "Graphite Hoe",
+      "item.outstanding_ores.talc_rod": "Talc Rod",
+      "item.outstanding_ores.wither_spine_fragment": "Wither Spine Fragment",
+      "item.outstanding_ores.craftite_sword": "Craftite Sword",
+      "item.outstanding_ores.cubic_zirconia_sword": "Cubic Zirconia Sword",
+      "block.outstanding_ores.block_of_tantalum_arsenide": "Block Of Tantalum Arsenide",
+      "block.outstanding_ores.deepslate_graphite_ore": "Deepslate Graphite Ore",
+      "item.outstanding_ores.moissanite_shovel": "Moissanite Shovel",
+      "item_group.outstanding_ores.outstanding_ores": "Outstanding Ores",
+      "advancements.obtain_elder_guardian_eye.title": "§6All Eyes On End Game",
+      "item.outstanding_ores.tungsten_shovel": "Tungsten Shovel",
+      "item.outstanding_ores.arsenic_hoe": "Arsenic Hoe",
+      "advancements.obtain_craftite.descr": "§7Obtain §5Craftite",
+      "advancements.obtain_dragon_scales.title": "§0True Late Game Scaling",
+      "item.outstanding_ores.cubic_zirconia_armor_leggings": "Cubic Zirconia Leggings",
+      "advancements.obtain_graphite.title": "Better Than Stone?",
+      "advancements.obtain_tungsten.descr": "§7Obtain §fRaw Tungsten",
+      "item.outstanding_ores.craftite": "Craftite",
+      "item.outstanding_ores.cubic_zirconia_hoe": "Cubic Zirconia Hoe",
+      "item.outstanding_ores.craftite_shovel": "Craftite Shovel",
+      "item.outstanding_ores.dragon_scales": "Dragon Scales",
+      "item.outstanding_ores.tungsten_ingot": "Tungsten Ingot",
+      "item.outstanding_ores.warden_rib": "Warden Rib",
+      "advancements.cover_me_in_minecraft.title": "Cover Me In Minecraft",
+      "item.outstanding_ores.raw_arsenic": "Raw Arsenic",
+      "item.outstanding_ores.cubic_zirconia_armor_helmet": "Cubic Zirconia Helmet",
+      "item.outstanding_ores.tungsten_chestplate": "Tungsten Chestplate",
+      "item.outstanding_ores.moissanite_gem_helmet": "Moissanite Helmet",
+      "item.outstanding_ores.arsenic_armor_helmet": "Arsenic Helmet",
+      "item.outstanding_ores.tantalum_arsenide_armor_leggings": "Tantalum Arsenide Leggings",
+      "advancements.obtain_moissanite.title": "Only This Can Melt Steel Beams",
+      "block.outstanding_ores.block_of_raw_graphite": "Block Of Raw Graphite",
+      "item.outstanding_ores.tantalum_arsenide_sword": "Tantalum Arsenide Sword",
+      "block.outstanding_ores.block_of_onyx": "Block Of Onyx",
+      "item.outstanding_ores.arsenic_armor_boots": "Arsenic Boots",
+      "advancements.obtain_wither_spine.descr": "§7Obtain a §8Wither Spine",
+      "block.outstanding_ores.jump_boost_graphite": "Fused Graphite",
+      "item.outstanding_ores.tantalum_arsenide_armor_chestplate": "Tantalum Arsenide Chestplate",
+      "block.outstanding_ores.block_of_craftite": "Block Of Craftite",
+      "item.outstanding_ores.tantalum_arsenide_pickaxe": "Tantalum Arsenide Pickaxe",
+      "block.outstanding_ores.block_of_moissanite": "Block Of Moissanite",
+      "item.outstanding_ores.arsenic_axe": "Arsenic Axe",
+      "item.outstanding_ores.cubic_zirconia_axe": "Cubic Zirconia Axe",
+      "item.outstanding_ores.tungsten_leggings": "Tungsten Leggings",
+      "item.outstanding_ores.warden_rib_piece": "Warden Rib Piece",
+      "block.outstanding_ores.block_of_cubic_zirconia": "Block Of Cubic Zirconia",
+      "item.outstanding_ores.tantalum_arsenide_axe": "Tantalum Arsenide Axe",
+      "advancements.obtain_moissanite.descr": "§7Obtain §eMoissanite",
+      "block.outstanding_ores.graphite_ore": "Graphite Ore",
+      "block.outstanding_ores.talc": "Talc",
+      "block.outstanding_ores.block_of_tungsten": "Block Of Tungsten",
+      "item.outstanding_ores.cubic_zirconia_shovel": "Cubic Zirconia Shovel",
+      "advancements.obtain_tantalum_arsenide.title": "§6This Discovery Is §c§lEXPLOSIVE",
+      "item.outstanding_ores.cubic_zirconia_2_helmet": "Cubic Zirconia 2 Helmet",
+      "item.outstanding_ores.craftite_armor_helmet": "Craftite Helmet",
+      "block.outstanding_ores.deepslate_tantalum_ore": "Deepslate Tantalum Ore",
+      "block.outstanding_ores.arsenic_ore": "Arsenic Ore",
+      "item.outstanding_ores.tantalum_pickaxe": "Tantalum Pickaxe",
+      "item.outstanding_ores.tantalum_shovel": "Tantalum Shovel",
+      "advancements.obtain_tantalum_arsenide.descr": "§7Obtain §6Tantalum Arsenide",
+      "item.outstanding_ores.tungsten_pickaxe": "Tungsten Pickaxe",
+      "item.outstanding_ores.raw_graphite": "Raw Graphite",
+      "block.outstanding_ores.block_of_raw_tungsten": "Block Of Raw Tungsten",
+      "item.outstanding_ores.cubic_zirconia_2_leggings": "Cubic Zirconia 2 Leggings",
+      "item.outstanding_ores.arsenic_armor_leggings": "Arsenic Leggings",
+      "advancements.cover_me_in_minecraft.descr": "Obtain a full set of craftite armor",
+      "item.outstanding_ores.cubic_zirconia_2_boots": "Cubic Zirconia 2 Boots",
+      "item.outstanding_ores.tungsten_axe": "Tungsten Axe",
+      "item.outstanding_ores.moissanite_gem_boots": "Moissanite Boots",
+      "advancements.enter_the_world.descr": "§7Welcome to §r§6Outstanding §r§4Ores",
+      "block.outstanding_ores.block_of_graphite": "Block Of Graphite",
+      "item.outstanding_ores.tantalum_arsenide_armor_boots": "Tantalum Arsenide Boots",
+      "item.outstanding_ores.moissanite_gem_chestplate": "Moissanite Chestplate",
+      "advancements.obtain_warden_rib.descr": "§7Obtain a §3Warden Rib"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "outstanding_ores",
+    "modName": "Outstanding Ores",
+    "version": "1.0.0",
+    "author": "micha, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "net.mcreator.outstandingores",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

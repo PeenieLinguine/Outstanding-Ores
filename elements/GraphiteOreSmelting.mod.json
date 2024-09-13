@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "blasting",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.6,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawGraphite"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:GraphiteIngot"
+    },
+    "name": "graphite_ore_smelting",
+    "namespace": "mod"
+  }
+}

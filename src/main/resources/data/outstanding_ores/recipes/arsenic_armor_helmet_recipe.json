@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:arsenic_ingot"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:arsenic_armor_helmet",
+    "count": 1
+  }
+}

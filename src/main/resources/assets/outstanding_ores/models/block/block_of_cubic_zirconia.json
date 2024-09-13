@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outstanding_ores:block/blockofcubiczirconia",
+    "particle": "outstanding_ores:block/blockofcubiczirconia"
+  },
+  "render_type": "solid"
+}

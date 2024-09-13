@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "craftitepickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Craftite Pickaxe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§e§lDig§6§lDug:§r§7 While holding §r§d§nShift§r§7, dig out a §r§e3x3x3 §r§7area around the initial block."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 9,
+    "efficiency": 30.0,
+    "attackSpeed": 1.2,
+    "enchantability": 35,
+    "damageVsEntity": 12.0,
+    "usageCount": 12068,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Craftite"
+      },
+      {
+        "value": "CUSTOM:CraftiteBase"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "CraftitePickaxeBonusEffect"
+    }
+  }
+}

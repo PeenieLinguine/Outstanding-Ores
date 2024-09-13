@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:block_of_tungsten",
+    "count": 1
+  }
+}

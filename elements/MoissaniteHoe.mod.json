@@ -1,0 +1,43 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "moissanitehoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Moissanite Hoe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§8§lToastification: §r§7Havesting §r§eHaybales §r§7bakes several §r§8§lToasty §r§7goods!"
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 16.0,
+    "attackSpeed": 6.0,
+    "enchantability": 28,
+    "damageVsEntity": 2.0,
+    "usageCount": 6542,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Moissanite"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "MoissaniteHoeBonusEffect"
+    }
+  }
+}

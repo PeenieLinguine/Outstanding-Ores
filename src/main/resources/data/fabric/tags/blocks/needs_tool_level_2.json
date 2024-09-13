@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "outstanding_ores:block_of_raw_graphite",
+    "outstanding_ores:glowing_graphite",
+    "outstanding_ores:jump_boost_graphite",
+    "outstanding_ores:arsenic_ore",
+    "outstanding_ores:block_of_raw_arsenic",
+    "outstanding_ores:block_of_arsenic",
+    "outstanding_ores:tantalum_ore",
+    "outstanding_ores:deepslate_tantalum_ore"
+  ]
+}

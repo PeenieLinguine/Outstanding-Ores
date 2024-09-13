@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "craftitehoe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Craftite Hoe",
+    "specialInformation": {
+      "fixedValue": [
+        "§cTool Bonus Effect:",
+        "§a§lTill§r §6§lThe§r §2§lLand:§r§7 Till out a §r§e3x3 §r§7area."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:OutstandingOres"
+    },
+    "harvestLevel": 1,
+    "efficiency": 30.0,
+    "attackSpeed": 8.0,
+    "enchantability": 35,
+    "damageVsEntity": 2.0,
+    "usageCount": 12068,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CraftiteBase"
+      },
+      {
+        "value": "CUSTOM:Craftite"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "CraftiteHoeBonusEffect"
+    }
+  }
+}

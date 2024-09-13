@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:moissanite"
+    },
+    "b": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:moissanite_axe",
+    "count": 1
+  }
+}

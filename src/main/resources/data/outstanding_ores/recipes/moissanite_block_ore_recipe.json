@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "crafting",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "outstanding_ores:block_of_moissanite"
+    }
+  ],
+  "result": {
+    "item": "outstanding_ores:moissanite",
+    "count": 9
+  }
+}

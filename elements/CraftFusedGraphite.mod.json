@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "craft",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TalcShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TalcShard"
+      },
+      {
+        "value": "CUSTOM:BlockOfGraphite"
+      },
+      {
+        "value": "CUSTOM:TalcShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TalcShard"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:JumpBoostGraphite"
+    },
+    "name": "craft_fused_graphite",
+    "namespace": "mod"
+  }
+}

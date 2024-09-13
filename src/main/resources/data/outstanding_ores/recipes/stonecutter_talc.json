@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "outstanding_ores:talc"
+  },
+  "result": "outstanding_ores:talc_shard"
+}

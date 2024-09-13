@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "outstanding_ores:craftite_armor_helmet"
+    },
+    "title": "Cover Me In Minecraft",
+    "description": "Obtain a full set of craftite armor",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "cover_me_in_minecraft": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "outstanding_ores:obtain_craftite_binding"
+}

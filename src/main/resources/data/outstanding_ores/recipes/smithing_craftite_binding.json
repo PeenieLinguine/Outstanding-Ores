@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "outstanding_ores:elder_guardian_eye"
+  },
+  "base": {
+    "item": "outstanding_ores:wither_spine_fragment"
+  },
+  "addition": {
+    "item": "outstanding_ores:dragon_scales"
+  },
+  "result": {
+    "item": "outstanding_ores:craftite_binding"
+  }
+}
