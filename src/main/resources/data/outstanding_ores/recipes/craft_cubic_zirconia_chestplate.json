@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "craft",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "outstanding_ores:cubic_zirconia"
+    }
+  },
+  "result": {
+    "item": "outstanding_ores:cubic_zirconia_armor_chestplate",
+    "count": 1
+  }
+}

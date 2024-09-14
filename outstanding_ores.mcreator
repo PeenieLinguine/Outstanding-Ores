@@ -4416,6 +4416,58 @@
           }
         ]
       }
+    },
+    {
+      "name": "CraftCubicZirconiaHelmet",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCubicZirconiaChestplate",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCubicZirconiaLeggings",
+      "type": "recipe",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCubicZirconiaBoots",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cubic_zirconia_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_boots.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4427,8 +4479,8 @@
       "advancements.obtain_tungsten.title": "The Tanky Metal",
       "item.outstanding_ores.onyx_gem_boots": "Onyx Boots",
       "item.outstanding_ores.raw_tantalum": "Raw Tantalum",
-      "advancements.obtain_cubic_zirconia.title": "Water Isn\u0027t An Issue Anymore",
       "item.outstanding_ores.toasty_bread": "Toasty Bread",
+      "advancements.obtain_cubic_zirconia.title": "Water Isn\u0027t An Issue Anymore",
       "item.outstanding_ores.moissanite_sword": "Moissanite Sword",
       "item.outstanding_ores.arsenic_pickaxe": "Arsenic Pickaxe",
       "item.outstanding_ores.graphite_ingot": "Graphite",
