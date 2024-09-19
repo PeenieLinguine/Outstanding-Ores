@@ -20,7 +20,7 @@
       "value": "CUSTOM:CraftiteSmithingTemplate"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:CraftiteArmorArmor.body"
+      "value": "CUSTOM:CraftiteArmor.body"
     },
     "name": "smith_craftite_chestplate",
     "namespace": "mod"

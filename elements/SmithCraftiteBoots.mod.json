@@ -20,7 +20,7 @@
       "value": "CUSTOM:CraftiteSmithingTemplate"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:CraftiteArmorArmor.boots"
+      "value": "CUSTOM:CraftiteArmor.boots"
     },
     "name": "smith_craftite_boots",
     "namespace": "mod"

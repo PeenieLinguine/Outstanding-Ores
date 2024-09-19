@@ -20,7 +20,7 @@
       "value": "CUSTOM:CraftiteSmithingTemplate"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:CraftiteArmorArmor.helmet"
+      "value": "CUSTOM:CraftiteArmor.helmet"
     },
     "name": "smith_craftite_helmet",
     "namespace": "mod"

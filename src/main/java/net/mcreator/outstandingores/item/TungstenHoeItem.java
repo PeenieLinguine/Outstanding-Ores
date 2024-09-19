@@ -53,13 +53,13 @@ public class TungstenHoeItem extends HoeItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7cTool Bonus Effect:"));
-		list.add(Component.literal("\u00A74Regeneration"));
-		list.add(Component.literal("\u00A74Health Boost"));
+		list.add(Component.literal("\u00A74Regeneration I"));
+		list.add(Component.literal("\u00A7eSpeed II"));
 	}
 
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		TungstenItembonusEffectProcedure.execute(world, entity);
+		TungstenItembonusEffectProcedure.execute(entity);
 	}
 }

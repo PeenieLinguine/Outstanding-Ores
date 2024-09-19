@@ -17,8 +17,8 @@
               "value": "CUSTOM:ElderGuardianEye"
             },
             "weight": 100,
-            "minCount": 1,
-            "maxCount": 1,
+            "minCount": 2,
+            "maxCount": 4,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

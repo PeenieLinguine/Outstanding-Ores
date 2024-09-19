@@ -10,7 +10,16 @@
     "textureLeggings": "tungstenleggings",
     "enableBoots": true,
     "textureBoots": "tungstenboots",
+    "onHelmetTick": {
+      "name": "TungstenArmorEffect"
+    },
     "onBodyTick": {
+      "name": "TungstenArmorEffect"
+    },
+    "onLeggingsTick": {
+      "name": "TungstenArmorEffect"
+    },
+    "onBootsTick": {
       "name": "TungstenArmorEffect"
     },
     "creativeTab": {
@@ -24,29 +33,29 @@
     "helmetSpecialInformation": {
       "fixedValue": [
         "§cFull Set Bonus Effect:",
-        "§8Resistance",
-        "§fStrength"
+        "§8Resistance II",
+        "§fStrength I"
       ]
     },
     "bodySpecialInformation": {
       "fixedValue": [
         "§cFull Set Bonus Effect:",
-        "§8Resistance",
-        "§fStrength"
+        "§8Resistance II",
+        "§fStrength I"
       ]
     },
     "leggingsSpecialInformation": {
       "fixedValue": [
         "§cFull Set Bonus Effect:",
-        "§8Resistance",
-        "§fStrength"
+        "§8Resistance II",
+        "§fStrength I"
       ]
     },
     "bootsSpecialInformation": {
       "fixedValue": [
         "§cFull Set Bonus Effect:",
-        "§8Resistance",
-        "§fStrength"
+        "§8Resistance II",
+        "§fStrength I"
       ]
     },
     "helmetModelName": "Default",

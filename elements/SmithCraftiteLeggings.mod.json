@@ -20,7 +20,7 @@
       "value": "CUSTOM:CraftiteSmithingTemplate"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:CraftiteArmorArmor.legs"
+      "value": "CUSTOM:CraftiteArmor.legs"
     },
     "name": "smith_craftite_leggings",
     "namespace": "mod"

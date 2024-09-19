@@ -5,7 +5,7 @@
     "achievementName": "Cover Me In Minecraft",
     "achievementDescription": "Obtain a full set of craftite armor",
     "achievementIcon": {
-      "value": "CUSTOM:CraftiteArmorArmor.helmet"
+      "value": "CUSTOM:CraftiteArmor.helmet"
     },
     "background": "Default",
     "disableDisplay": false,

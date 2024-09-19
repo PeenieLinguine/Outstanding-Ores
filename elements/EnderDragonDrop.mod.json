@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:DragonScales"
             },
-            "weight": 1,
+            "weight": 100,
             "minCount": 2,
             "maxCount": 4,
             "minEnchantmentLevel": 0,

@@ -82,7 +82,7 @@ import net.mcreator.outstandingores.item.CraftiteHoeItem;
 import net.mcreator.outstandingores.item.CraftiteBindingItem;
 import net.mcreator.outstandingores.item.CraftiteBaseItem;
 import net.mcreator.outstandingores.item.CraftiteAxeItem;
-import net.mcreator.outstandingores.item.CraftiteArmorArmorItem;
+import net.mcreator.outstandingores.item.CraftiteArmorItem;
 import net.mcreator.outstandingores.item.ArsenicSwordItem;
 import net.mcreator.outstandingores.item.ArsenicShovelItem;
 import net.mcreator.outstandingores.item.ArsenicPickaxeItem;
@@ -212,10 +212,6 @@ public class OutstandingOresModItems {
 	public static Item CRAFTITE_AXE;
 	public static Item CRAFTITE_SHOVEL;
 	public static Item CRAFTITE_HOE;
-	public static Item CRAFTITE_ARMOR_HELMET;
-	public static Item CRAFTITE_ARMOR_CHESTPLATE;
-	public static Item CRAFTITE_ARMOR_LEGGINGS;
-	public static Item CRAFTITE_ARMOR_BOOTS;
 	public static Item REINFORCED_ALLOY_SMELTER;
 	public static Item WARDEN_RIB;
 	public static Item WARDEN_RIB_PIECE;
@@ -224,6 +220,10 @@ public class OutstandingOresModItems {
 	public static Item ELDER_GUARDIAN_EYE;
 	public static Item CRAFTITE_BINDING;
 	public static Item TOASTY_BREAD;
+	public static Item CRAFTITE_ARMOR_HELMET;
+	public static Item CRAFTITE_ARMOR_CHESTPLATE;
+	public static Item CRAFTITE_ARMOR_LEGGINGS;
+	public static Item CRAFTITE_ARMOR_BOOTS;
 
 	public static void load() {
 		GRAPHITE_ORE = register("graphite_ore", new BlockItem(OutstandingOresModBlocks.GRAPHITE_ORE, new Item.Properties()));
@@ -369,10 +369,6 @@ public class OutstandingOresModItems {
 		CRAFTITE_AXE = register("craftite_axe", new CraftiteAxeItem());
 		CRAFTITE_SHOVEL = register("craftite_shovel", new CraftiteShovelItem());
 		CRAFTITE_HOE = register("craftite_hoe", new CraftiteHoeItem());
-		CRAFTITE_ARMOR_HELMET = register("craftite_armor_helmet", new CraftiteArmorArmorItem.Helmet());
-		CRAFTITE_ARMOR_CHESTPLATE = register("craftite_armor_chestplate", new CraftiteArmorArmorItem.Chestplate());
-		CRAFTITE_ARMOR_LEGGINGS = register("craftite_armor_leggings", new CraftiteArmorArmorItem.Leggings());
-		CRAFTITE_ARMOR_BOOTS = register("craftite_armor_boots", new CraftiteArmorArmorItem.Boots());
 		REINFORCED_ALLOY_SMELTER = register("reinforced_alloy_smelter", new BlockItem(OutstandingOresModBlocks.REINFORCED_ALLOY_SMELTER, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(OutstandingOresModTabs.TAB_OUTSTANDING_ORES).register(content -> content.accept(REINFORCED_ALLOY_SMELTER));
 		WARDEN_RIB = register("warden_rib", new WardenRibItem());
@@ -382,6 +378,10 @@ public class OutstandingOresModItems {
 		ELDER_GUARDIAN_EYE = register("elder_guardian_eye", new ElderGuardianEyeItem());
 		CRAFTITE_BINDING = register("craftite_binding", new CraftiteBindingItem());
 		TOASTY_BREAD = register("toasty_bread", new ToastyBreadItem());
+		CRAFTITE_ARMOR_HELMET = register("craftite_armor_helmet", new CraftiteArmorItem.Helmet());
+		CRAFTITE_ARMOR_CHESTPLATE = register("craftite_armor_chestplate", new CraftiteArmorItem.Chestplate());
+		CRAFTITE_ARMOR_LEGGINGS = register("craftite_armor_leggings", new CraftiteArmorItem.Leggings());
+		CRAFTITE_ARMOR_BOOTS = register("craftite_armor_boots", new CraftiteArmorItem.Boots());
 	}
 
 	public static void clientLoad() {

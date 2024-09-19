@@ -84,8 +84,20 @@ public abstract class TungstenItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("\u00A7cFull Set Bonus Effect:"));
-			list.add(Component.literal("\u00A78Resistance"));
-			list.add(Component.literal("\u00A7fStrength"));
+			list.add(Component.literal("\u00A78Resistance II"));
+			list.add(Component.literal("\u00A7fStrength I"));
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slotinv, boolean selected) {
+			double unique = Math.random();
+			ItemStack stack = entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY;
+			if (stack.getItem() == (itemstack).getItem()) {
+				if (stack.getOrCreateTag().getDouble("_id") != unique)
+					stack.getOrCreateTag().putDouble("_id", unique);
+				if (itemstack.getOrCreateTag().getDouble("_id") == unique)
+					TungstenArmorEffectProcedure.execute(entity);
+			}
 		}
 	}
 
@@ -100,8 +112,8 @@ public abstract class TungstenItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("\u00A7cFull Set Bonus Effect:"));
-			list.add(Component.literal("\u00A78Resistance"));
-			list.add(Component.literal("\u00A7fStrength"));
+			list.add(Component.literal("\u00A78Resistance II"));
+			list.add(Component.literal("\u00A7fStrength I"));
 		}
 
 		@Override
@@ -128,8 +140,20 @@ public abstract class TungstenItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("\u00A7cFull Set Bonus Effect:"));
-			list.add(Component.literal("\u00A78Resistance"));
-			list.add(Component.literal("\u00A7fStrength"));
+			list.add(Component.literal("\u00A78Resistance II"));
+			list.add(Component.literal("\u00A7fStrength I"));
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slotinv, boolean selected) {
+			double unique = Math.random();
+			ItemStack stack = entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY;
+			if (stack.getItem() == (itemstack).getItem()) {
+				if (stack.getOrCreateTag().getDouble("_id") != unique)
+					stack.getOrCreateTag().putDouble("_id", unique);
+				if (itemstack.getOrCreateTag().getDouble("_id") == unique)
+					TungstenArmorEffectProcedure.execute(entity);
+			}
 		}
 	}
 
@@ -144,8 +168,20 @@ public abstract class TungstenItem extends ArmorItem {
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
 			list.add(Component.literal("\u00A7cFull Set Bonus Effect:"));
-			list.add(Component.literal("\u00A78Resistance"));
-			list.add(Component.literal("\u00A7fStrength"));
+			list.add(Component.literal("\u00A78Resistance II"));
+			list.add(Component.literal("\u00A7fStrength I"));
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slotinv, boolean selected) {
+			double unique = Math.random();
+			ItemStack stack = entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY;
+			if (stack.getItem() == (itemstack).getItem()) {
+				if (stack.getOrCreateTag().getDouble("_id") != unique)
+					stack.getOrCreateTag().putDouble("_id", unique);
+				if (itemstack.getOrCreateTag().getDouble("_id") == unique)
+					TungstenArmorEffectProcedure.execute(entity);
+			}
 		}
 	}
 }

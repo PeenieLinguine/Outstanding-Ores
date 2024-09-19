@@ -26,33 +26,41 @@ public class CraftiteArmorEffectProcedure {
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == OutstandingOresModItems.CRAFTITE_ARMOR_CHESTPLATE
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == OutstandingOresModItems.CRAFTITE_ARMOR_LEGGINGS
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == OutstandingOresModItems.CRAFTITE_ARMOR_BOOTS) {
+			if (entity instanceof ServerPlayer _player) {
+				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("outstanding_ores:cover_me_in_minecraft"));
+				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+				if (!_ap.isDone()) {
+					for (String criteria : _ap.getRemainingCriteria())
+						_player.getAdvancements().award(_adv, criteria);
+				}
+			}
 			if (itemstack.getItem() == OutstandingOresModItems.CRAFTITE_ARMOR_HELMET) {
-				if (itemstack.getOrCreateTag().getBoolean("CZenchant") == false) {
-					itemstack.getOrCreateTag().putBoolean("CZenchant", true);
+				if (itemstack.getOrCreateTag().getBoolean("Cenchant") == false) {
+					itemstack.getOrCreateTag().putBoolean("Cenchant", true);
 					itemstack.enchant(Enchantments.PROJECTILE_PROTECTION, 5);
 				}
 			}
 			if (itemstack.getItem() == OutstandingOresModItems.CRAFTITE_ARMOR_CHESTPLATE) {
-				if (itemstack.getOrCreateTag().getBoolean("CZenchant") == false) {
-					itemstack.getOrCreateTag().putBoolean("CZenchant", true);
+				if (itemstack.getOrCreateTag().getBoolean("Cenchant") == false) {
+					itemstack.getOrCreateTag().putBoolean("Cenchant", true);
 					itemstack.enchant(Enchantments.THORNS, 5);
 				}
 			}
 			if (itemstack.getItem() == OutstandingOresModItems.CRAFTITE_ARMOR_LEGGINGS) {
-				if (itemstack.getOrCreateTag().getBoolean("CZenchant") == false) {
-					itemstack.getOrCreateTag().putBoolean("CZenchant", true);
+				if (itemstack.getOrCreateTag().getBoolean("Cenchant") == false) {
+					itemstack.getOrCreateTag().putBoolean("Cenchant", true);
 					itemstack.enchant(Enchantments.SOUL_SPEED, 5);
 				}
 			}
 			if (itemstack.getItem() == OutstandingOresModItems.CRAFTITE_ARMOR_BOOTS) {
-				if (itemstack.getOrCreateTag().getBoolean("CZenchant") == false) {
-					itemstack.getOrCreateTag().putBoolean("CZenchant", true);
+				if (itemstack.getOrCreateTag().getBoolean("Cenchant") == false) {
+					itemstack.getOrCreateTag().putBoolean("Cenchant", true);
 					itemstack.enchant(Enchantments.DEPTH_STRIDER, 5);
 				}
 			}
 		} else {
-			if (itemstack.getOrCreateTag().getBoolean("CZenchant") == true) {
-				itemstack.getOrCreateTag().putBoolean("CZenchant", false);
+			if (itemstack.getOrCreateTag().getBoolean("Cenchant") == true) {
+				itemstack.getOrCreateTag().putBoolean("Cenchant", false);
 				{
 					Map<Enchantment, Integer> _enchantments = EnchantmentHelper.getEnchantments(itemstack);
 					if (_enchantments.containsKey(Enchantments.PROJECTILE_PROTECTION)) {
@@ -89,33 +97,25 @@ public class CraftiteArmorEffectProcedure {
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == OutstandingOresModItems.CRAFTITE_ARMOR_BOOTS) {
 			if (entity.isUnderWater() == true) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 40, 0, true, false));
+					_entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 100, 0, false, false));
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 40, 4, true, false));
+					_entity.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 100, 4, false, false));
 			} else {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 32, true, false));
+					_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 32, false, false));
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 40, 10, true, false));
+					_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 100, 10, false, false));
 				if (entity instanceof LivingEntity _entity)
 					_entity.removeEffect(MobEffects.WATER_BREATHING);
 				if (entity instanceof LivingEntity _entity)
 					_entity.removeEffect(MobEffects.DOLPHINS_GRACE);
 			}
-			if (entity instanceof ServerPlayer _player) {
-				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("outstanding_ores:cover_me_in_minecraft"));
-				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-				if (!_ap.isDone()) {
-					for (String criteria : _ap.getRemainingCriteria())
-						_player.getAdvancements().award(_adv, criteria);
-				}
-			}
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 40, 0, true, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 100, 0, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 2, true, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100, 2, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 4, true, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 100, 4, false, false));
 			entity.fallDistance = 0;
 		} else {
 			if (entity instanceof LivingEntity _entity)

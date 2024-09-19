@@ -3284,23 +3284,6 @@
       }
     },
     {
-      "name": "CraftiteArmorArmor",
-      "type": "armor",
-      "sortid": 97,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craftite_armor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_boots.json",
-          "src/main/java/net/mcreator/outstandingores/item/CraftiteArmorArmorItem.java",
-          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_chestplate.json",
-          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_helmet.json",
-          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_leggings.json"
-        ]
-      }
-    },
-    {
       "name": "TantalumArsenideArmorHelmetRecipe",
       "type": "recipe",
       "sortid": 227,
@@ -3688,10 +3671,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -3765,9 +3744,6 @@
       "locked_code": false,
       "registry_name": "craftite_armor_effect",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/outstandingores/procedures/CraftiteArmorEffectProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -4468,6 +4444,23 @@
           "src/main/resources/data/outstanding_ores/recipes/craft_cubic_zirconia_boots.json"
         ]
       }
+    },
+    {
+      "name": "CraftiteArmor",
+      "type": "armor",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_boots.json",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_chestplate.json",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_helmet.json",
+          "src/main/resources/assets/outstanding_ores/models/item/craftite_armor_leggings.json",
+          "src/main/java/net/mcreator/outstandingores/item/CraftiteArmorItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4485,9 +4478,9 @@
       "item.outstanding_ores.arsenic_pickaxe": "Arsenic Pickaxe",
       "item.outstanding_ores.graphite_ingot": "Graphite",
       "item.outstanding_ores.onyx_sword": "Onyx Sword",
-      "item.outstanding_ores.craftite_armor_boots": "Craftite Boots",
       "advancements.obtain_craftite.title": "§5How Did We Get This?",
       "advancements.obtain_dragon_scales.descr": "§7Obtain a §0Dragon Scale",
+      "item.outstanding_ores.craftite_armor_boots": "Craftite Boots",
       "item.outstanding_ores.moissanite_pickaxe": "Moissanite Pickaxe",
       "item.outstanding_ores.graphite_rod": "Graphite Rod",
       "item.outstanding_ores.craftite_base": "Craftite Base",

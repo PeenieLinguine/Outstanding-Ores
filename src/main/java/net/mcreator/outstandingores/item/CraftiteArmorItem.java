@@ -28,8 +28,8 @@ import java.util.List;
 
 import java.lang.reflect.Type;
 
-public abstract class CraftiteArmorArmorItem extends ArmorItem {
-	public CraftiteArmorArmorItem(Type type, Item.Properties properties) {
+public abstract class CraftiteArmorItem extends ArmorItem {
+	public CraftiteArmorItem(Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(Type type) {
@@ -74,7 +74,7 @@ public abstract class CraftiteArmorArmorItem extends ArmorItem {
 		}, type, properties);
 	}
 
-	public static class Helmet extends CraftiteArmorArmorItem {
+	public static class Helmet extends CraftiteArmorItem {
 		public Helmet() {
 			super(Type.HELMET, new Item.Properties());
 			ItemGroupEvents.modifyEntriesEvent(OutstandingOresModTabs.TAB_OUTSTANDING_ORES).register(content -> content.accept(this));
@@ -112,7 +112,7 @@ public abstract class CraftiteArmorArmorItem extends ArmorItem {
 		}
 	}
 
-	public static class Chestplate extends CraftiteArmorArmorItem {
+	public static class Chestplate extends CraftiteArmorItem {
 
 		public Chestplate() {
 			super(Type.CHESTPLATE, new Item.Properties());
@@ -151,7 +151,7 @@ public abstract class CraftiteArmorArmorItem extends ArmorItem {
 		}
 	}
 
-	public static class Leggings extends CraftiteArmorArmorItem {
+	public static class Leggings extends CraftiteArmorItem {
 
 		public Leggings() {
 			super(Type.LEGGINGS, new Item.Properties());
@@ -190,7 +190,7 @@ public abstract class CraftiteArmorArmorItem extends ArmorItem {
 		}
 	}
 
-	public static class Boots extends CraftiteArmorArmorItem {
+	public static class Boots extends CraftiteArmorItem {
 
 		public Boots() {
 			super(Type.BOOTS, new Item.Properties());
